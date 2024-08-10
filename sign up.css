@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #02792f;
+    color: #000000;
+    padding: 20px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    color:#090135;
+    text-align: center;
+    padding-top:   5px;
+   
+}
+h3{
+    color:#090135;
+    text-align: center;
+    padding-top:   5px;
+}
+
+    
+.signup-container {
+    background: #fff;
+    padding: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+}
+form {
+    background: #fff;
+    background-position: center;
+    background-size: contain;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+form label {
+    display: block;
+    margin-bottom: 9px;
+    font-weight: normal;
+    
+}
+
+    form input[type="text"],
+form input[type="fullname"],
+form input[type="username"],
+form input[type="email"],
+form input[type="number"],
+form input[type="address"],
+form input[type="refferal name"], 
+form input[type="password"],
+form input[type="confirm password"]  {
+    width: 95%;
+    padding: 11px;
+    margin-bottom: 12px;
+    border: 0.5px solid #9ca1a1;
+    border-radius: 3px;
+}
+
+    button {
+    background-color: #3b79eb;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover{
+    background-color: #13b5ca;
+}
+h4{
+    text-align:center ;
+    text-shadow: #02792f;
+}
+    
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .signup-container {
+        padding: 15px;
+    }
+}
