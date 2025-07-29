@@ -2,9 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #5fc58a;
     
-   
-  
-    
 }
 
 .login-container{
@@ -43,9 +40,6 @@ body {
     
     
 }
-
-
-
  p{
     text-align: center;
     
@@ -60,13 +54,6 @@ body {
     font-size: 15px;
    padding: 3px;
  }
-
- 
-
-
-
-
-
 
 /* Responsive Design */
 @media (max-width: 2px) {
